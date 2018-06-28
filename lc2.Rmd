@@ -132,8 +132,5 @@ tableplot(loan, select = c('loan_status_1', 'acc_now_delinq', 'annual_inc',
                            'loan_amnt', 'term'))
 # up to here, first week
 
-org.data <- read.csv("LCFromWebsite_2007_2011.csv", stringsAsFactors = FALSE) #
-org.data <- read.table("LCFromWebsite_2007_2011.csv", stringsAsFactors = FALSE, 
-                       fill = TRUE, sep = ",", skip = 1, header = T)
 ```
 
